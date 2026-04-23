@@ -1,9 +1,9 @@
 /*-----------------------------------------------------------------------------------
 
-    Theme Name: Reak - Creative Agency & Portfolio HTML Template
-    Author: Ordianit
-    Support:ordianit@gmail.com
-    Description: Reak - Creative Agency & Portfolio HTML Template
+    Theme Name: Ripon Web Tech - Creative Agency & Portfolio HTML Template
+    Author: Ripon Web Tech
+    Support: riponwebtech@gmail.com
+    Description: Ripon Web Tech - Creative Agency & Portfolio HTML Template
     Version: 1.0.1
 
 -----------------------------------------------------------------------------------
@@ -35,8 +35,10 @@
   --oit-grey-1: #f5f5f5;
   --oit-grey-2: #494949;
   --oit-text-body: #5d5d5d;
+  --oit-blue: #2563EB;
+  --oit-purple: #7C3AED;
   --oit-theme-1: #000;
-  --oit-border-1: #EAEBED;
+  --oit-border-1: #eaebed;
 }
 
 :root {
@@ -48,7 +50,12 @@
   --oit-ff-fontawesome: "Font Awesome 6 Pro";
 }
 
-.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+.container,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
   max-width: 1750px;
 }
 
@@ -182,12 +189,12 @@ button:focus {
   outline: 0;
 }
 
-input[type=text],
-input[type=email],
-input[type=tel],
-input[type=number],
-input[type=password],
-input[type=url],
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="number"],
+input[type="password"],
+input[type="url"],
 textarea {
   outline: none;
   height: 56px;
@@ -200,66 +207,71 @@ textarea {
   border: 1px solid var(--oit-clr-white);
   background-color: var(--oit-clr-white);
 }
-input[type=text]::-webkit-input-placeholder,
-input[type=email]::-webkit-input-placeholder,
-input[type=tel]::-webkit-input-placeholder,
-input[type=number]::-webkit-input-placeholder,
-input[type=password]::-webkit-input-placeholder,
-input[type=url]::-webkit-input-placeholder,
-textarea::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+input[type="text"]::-webkit-input-placeholder,
+input[type="email"]::-webkit-input-placeholder,
+input[type="tel"]::-webkit-input-placeholder,
+input[type="number"]::-webkit-input-placeholder,
+input[type="password"]::-webkit-input-placeholder,
+input[type="url"]::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
   color: var(--oit-clr-white);
 }
-input[type=text]::-moz-placeholder,
-input[type=email]::-moz-placeholder,
-input[type=tel]::-moz-placeholder,
-input[type=number]::-moz-placeholder,
-input[type=password]::-moz-placeholder,
-input[type=url]::-moz-placeholder,
-textarea::-moz-placeholder { /* Firefox 19+ */
+input[type="text"]::-moz-placeholder,
+input[type="email"]::-moz-placeholder,
+input[type="tel"]::-moz-placeholder,
+input[type="number"]::-moz-placeholder,
+input[type="password"]::-moz-placeholder,
+input[type="url"]::-moz-placeholder,
+textarea::-moz-placeholder {
+  /* Firefox 19+ */
   color: var(--oit-clr-white);
 }
-input[type=text]:-moz-placeholder,
-input[type=email]:-moz-placeholder,
-input[type=tel]:-moz-placeholder,
-input[type=number]:-moz-placeholder,
-input[type=password]:-moz-placeholder,
-input[type=url]:-moz-placeholder,
-textarea:-moz-placeholder { /* Firefox 4-18 */
+input[type="text"]:-moz-placeholder,
+input[type="email"]:-moz-placeholder,
+input[type="tel"]:-moz-placeholder,
+input[type="number"]:-moz-placeholder,
+input[type="password"]:-moz-placeholder,
+input[type="url"]:-moz-placeholder,
+textarea:-moz-placeholder {
+  /* Firefox 4-18 */
   color: var(--oit-clr-white);
 }
-input[type=text]:-ms-input-placeholder,
-input[type=email]:-ms-input-placeholder,
-input[type=tel]:-ms-input-placeholder,
-input[type=number]:-ms-input-placeholder,
-input[type=password]:-ms-input-placeholder,
-input[type=url]:-ms-input-placeholder,
-textarea:-ms-input-placeholder { /* IE 10+  Edge*/
+input[type="text"]:-ms-input-placeholder,
+input[type="email"]:-ms-input-placeholder,
+input[type="tel"]:-ms-input-placeholder,
+input[type="number"]:-ms-input-placeholder,
+input[type="password"]:-ms-input-placeholder,
+input[type="url"]:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+  /* IE 10+  Edge*/
   color: var(--oit-clr-white);
 }
-input[type=text]::placeholder,
-input[type=email]::placeholder,
-input[type=tel]::placeholder,
-input[type=number]::placeholder,
-input[type=password]::placeholder,
-input[type=url]::placeholder,
-textarea::placeholder { /* MODERN BROWSER */
+input[type="text"]::placeholder,
+input[type="email"]::placeholder,
+input[type="tel"]::placeholder,
+input[type="number"]::placeholder,
+input[type="password"]::placeholder,
+input[type="url"]::placeholder,
+textarea::placeholder {
+  /* MODERN BROWSER */
   color: var(--oit-clr-white);
 }
-input[type=text]:focus,
-input[type=email]:focus,
-input[type=tel]:focus,
-input[type=number]:focus,
-input[type=password]:focus,
-input[type=url]:focus,
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+input[type="number"]:focus,
+input[type="password"]:focus,
+input[type="url"]:focus,
 textarea:focus {
   border-color: var(--oit-clr-white);
 }
-input[type=text]:focus::placeholder,
-input[type=email]:focus::placeholder,
-input[type=tel]:focus::placeholder,
-input[type=number]:focus::placeholder,
-input[type=password]:focus::placeholder,
-input[type=url]:focus::placeholder,
+input[type="text"]:focus::placeholder,
+input[type="email"]:focus::placeholder,
+input[type="tel"]:focus::placeholder,
+input[type="number"]:focus::placeholder,
+input[type="password"]:focus::placeholder,
+input[type="url"]:focus::placeholder,
 textarea:focus::placeholder {
   opacity: 0;
 }
@@ -270,7 +282,7 @@ textarea {
   padding-bottom: 17px;
 }
 
-input[type=color] {
+input[type="color"] {
   appearance: none;
   -moz-appearance: none;
   -webkit-appearance: none;
@@ -461,7 +473,8 @@ input[type=color] {
 .oit-dropcap::first-letter {
   margin-left: 280px;
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .oit-dropcap::first-letter {
     margin-left: 0;
   }
@@ -484,7 +497,9 @@ input[type=color] {
   pointer-events: none;
   transform: translate(-50%, -50%);
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .oit-img-wrap {
     width: 200px;
     height: 250px;
@@ -500,7 +515,9 @@ input[type=color] {
   object-fit: cover;
   object-position: center;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .oit-img-wrap img {
     width: 200px;
     height: 250px;
@@ -528,13 +545,21 @@ input[type=color] {
 .border-line {
   display: inline;
   background-repeat: no-repeat;
-  background-size: 0% 2px, 0 2px;
-  background-position: 100% 100%, 0 100%;
+  background-size:
+    0% 2px,
+    0 2px;
+  background-position:
+    100% 100%,
+    0 100%;
   transition: background-size 0.3s linear;
-  background-image: linear-gradient(currentcolor, currentcolor), linear-gradient(currentcolor, currentcolor);
+  background-image:
+    linear-gradient(currentcolor, currentcolor),
+    linear-gradient(currentcolor, currentcolor);
 }
 .border-line:hover {
-  background-size: 0% 2px, 100% 2px;
+  background-size:
+    0% 2px,
+    100% 2px;
 }
 
 .grey-bg {
@@ -564,7 +589,10 @@ input[type=color] {
   border: 1px solid var(--oit-clr-white);
   gap: 10px;
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .oit-btn-border {
     font-size: 14px;
     padding: 5px 22px;
@@ -592,7 +620,10 @@ input[type=color] {
   border-color: var(--oit-clr-white);
   background-color: var(--oit-clr-white);
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .oit-btn-border.btn-white-bg {
     padding: 5px 26px;
     padding-right: 8px;
@@ -608,7 +639,10 @@ input[type=color] {
 .oit-btn-border.btn-large {
   padding: 17px 26px;
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .oit-btn-border.btn-large {
     padding: 12px 26px;
   }
@@ -756,7 +790,8 @@ input[type=color] {
   position: relative;
   overflow: hidden;
 }
-.oit-btn-line span::before, .oit-btn-line span::after {
+.oit-btn-line span::before,
+.oit-btn-line span::after {
   content: "";
   position: absolute;
   display: block;
@@ -779,16 +814,24 @@ input[type=color] {
 /*----------------------------------------*/
 @keyframes animate-pulse-white {
   0% {
-    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.8), 0 0 0 0 rgba(255, 255, 255, 0.8);
+    box-shadow:
+      0 0 0 0 rgba(255, 255, 255, 0.8),
+      0 0 0 0 rgba(255, 255, 255, 0.8);
   }
   40% {
-    box-shadow: 0 0 0 50px rgba(255, 255, 255, 0), 0 0 0 0 rgba(255, 255, 255, 0.8);
+    box-shadow:
+      0 0 0 50px rgba(255, 255, 255, 0),
+      0 0 0 0 rgba(255, 255, 255, 0.8);
   }
   80% {
-    box-shadow: 0 0 0 50px rgba(255, 255, 255, 0), 0 0 0 30px rgba(255, 255, 255, 0);
+    box-shadow:
+      0 0 0 50px rgba(255, 255, 255, 0),
+      0 0 0 30px rgba(255, 255, 255, 0);
   }
   100% {
-    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0), 0 0 0 30px rgba(255, 255, 255, 0);
+    box-shadow:
+      0 0 0 0 rgba(255, 255, 255, 0),
+      0 0 0 30px rgba(255, 255, 255, 0);
   }
 }
 .pulse-white {
@@ -808,7 +851,9 @@ input[type=color] {
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: opacity 0.5s ease, visibility 0.5s ease;
+  transition:
+    opacity 0.5s ease,
+    visibility 0.5s ease;
 }
 
 #preloader.is-loading {
@@ -885,7 +930,9 @@ input[type=color] {
   display: inline-block;
   text-transform: uppercase;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .oit-section-subtitle-box {
     margin-bottom: 20px;
   }
@@ -968,7 +1015,10 @@ input[type=color] {
     font-size: 90px;
   }
 }
-@media only screen and (min-width: 1400px) and (max-width: 1599px), only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 1400px) and (max-width: 1599px),
+  only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px) {
   .oit-section-title.fsz-120 {
     font-size: 80px;
   }
@@ -978,7 +1028,10 @@ input[type=color] {
     font-size: 60px;
   }
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .oit-section-title-box {
     padding-left: 0;
     margin-bottom: 40px;
@@ -1055,7 +1108,8 @@ input[type=color] {
 .oitoffcanvas__logo {
   margin-bottom: 60px;
 }
-@media (max-width: 767px), only screen and (min-width: 768px) and (max-width: 991px) {
+@media (max-width: 767px),
+  only screen and (min-width: 768px) and (max-width: 991px) {
   .oitoffcanvas__logo {
     padding-top: 0;
   }
@@ -1155,7 +1209,8 @@ input[type=color] {
   padding-bottom: 20px;
   margin-bottom: 20px;
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .oitoffcanvas__text {
     display: none;
   }
@@ -1216,7 +1271,8 @@ input[type=color] {
   padding: 0px;
   height: 135px;
 }
-.oitoffcanvas .oit-menu-mobile .home-img-title, .oitoffcanvas .oit-category-mobile-menu .home-img-title {
+.oitoffcanvas .oit-menu-mobile .home-img-title,
+.oitoffcanvas .oit-category-mobile-menu .home-img-title {
   font-weight: 400;
 }
 .oitoffcanvas .oit-megamenu-thumb {
@@ -1235,7 +1291,8 @@ input[type=color] {
 .oitoffcanvas .oit-megamenu-list li:not(:last-child) {
   margin-bottom: 0;
 }
-.oitoffcanvas .oit-menu-mobile ul li > a, .oitoffcanvas .oit-category-mobile-menu ul li > a {
+.oitoffcanvas .oit-menu-mobile ul li > a,
+.oitoffcanvas .oit-category-mobile-menu ul li > a {
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 .oitoffcanvas .oit-megamenu-title {
@@ -1252,7 +1309,9 @@ input[type=color] {
   color: var(--oit-clr-white);
 }
 .oitoffcanvas .home-img:hover .home-img-title {
-  background-size: 0% 1px, 100% 1px;
+  background-size:
+    0% 1px,
+    100% 1px;
 }
 
 /* HEADER CSS */
@@ -1267,7 +1326,9 @@ input[type=color] {
   z-index: 99;
 }
 
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .oit-header-logo {
     padding: 15px 0;
   }
@@ -1279,7 +1340,10 @@ input[type=color] {
   border-radius: 50%;
   background-color: var(--oit-clr-white);
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .oit-header-bar {
     height: 50px;
     width: 50px;
@@ -1355,7 +1419,9 @@ input[type=color] {
   transform: perspective(300px) rotateX(-18deg);
   background-color: var(--oit-clr-white);
   border: 1px solid rgba(48, 48, 47, 0.1);
-  box-shadow: 0px 1px 2px 1px rgba(3, 11, 30, 0.06), 0px 1px 1px 0px rgba(3, 11, 30, 0.1);
+  box-shadow:
+    0px 1px 2px 1px rgba(3, 11, 30, 0.06),
+    0px 1px 1px 0px rgba(3, 11, 30, 0.1);
   z-index: 9999;
 }
 .oit-header-menu nav ul li .submenu.index-submenu {
@@ -1452,7 +1518,10 @@ input[type=color] {
   line-height: 21px;
   text-align: center;
   border: 1px solid rgba(176, 162, 162, 0.35);
-  transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  transition:
+    background-color 0.3s ease-in-out,
+    border-color 0.3s ease-in-out,
+    color 0.3s ease-in-out;
 }
 .oit-menu-mobile ul li.has-dropdown > a .dropdown-toggle-btn i,
 .oit-category-mobile-menu ul li.has-dropdown > a .dropdown-toggle-btn i {
@@ -1460,7 +1529,12 @@ input[type=color] {
   margin-left: 2px;
 }
 .oit-menu-mobile ul li.has-dropdown > a .dropdown-toggle-btn.dropdown-opened i,
-.oit-category-mobile-menu ul li.has-dropdown > a .dropdown-toggle-btn.dropdown-opened i {
+.oit-category-mobile-menu
+  ul
+  li.has-dropdown
+  > a
+  .dropdown-toggle-btn.dropdown-opened
+  i {
   transform: rotate(90deg);
 }
 .oit-menu-mobile ul li.has-dropdown > a .dropdown-toggle-btn:hover,
@@ -1477,14 +1551,32 @@ input[type=color] {
 .oit-category-mobile-menu ul li.has-dropdown > a.expanded {
   color: var(--oit-theme-1);
 }
-.oit-menu-mobile ul li.has-dropdown > a.expanded .dropdown-toggle-btn.dropdown-opened,
-.oit-category-mobile-menu ul li.has-dropdown > a.expanded .dropdown-toggle-btn.dropdown-opened {
+.oit-menu-mobile
+  ul
+  li.has-dropdown
+  > a.expanded
+  .dropdown-toggle-btn.dropdown-opened,
+.oit-category-mobile-menu
+  ul
+  li.has-dropdown
+  > a.expanded
+  .dropdown-toggle-btn.dropdown-opened {
   background-color: var(--oit-theme-1);
   border-color: var(--oit-theme-1);
   color: var(--oit-clr-white);
 }
-.oit-menu-mobile ul li.has-dropdown > a.expanded .dropdown-toggle-btn.dropdown-opened i,
-.oit-category-mobile-menu ul li.has-dropdown > a.expanded .dropdown-toggle-btn.dropdown-opened i {
+.oit-menu-mobile
+  ul
+  li.has-dropdown
+  > a.expanded
+  .dropdown-toggle-btn.dropdown-opened
+  i,
+.oit-category-mobile-menu
+  ul
+  li.has-dropdown
+  > a.expanded
+  .dropdown-toggle-btn.dropdown-opened
+  i {
   color: var(--oit-clr-white);
 }
 .oit-menu-mobile ul li.has-dropdown:hover > a::after,
@@ -1527,7 +1619,7 @@ input[type=color] {
 .oit-category-mobile-menu ul li > a .menu-text {
   font-size: 16px;
   line-height: 11px;
-  border-bottom: 1px solid #EAEBED;
+  border-bottom: 1px solid #eaebed;
   width: 82%;
   display: inline-block;
   padding: 19px 0 17px;
@@ -1590,7 +1682,8 @@ input[type=color] {
   opacity: 1;
   top: 0;
 }
-.oit-menu-mobile ul li .mega-menu, .oit-menu-mobile ul li .submenu,
+.oit-menu-mobile ul li .mega-menu,
+.oit-menu-mobile ul li .submenu,
 .oit-category-mobile-menu ul li .mega-menu,
 .oit-category-mobile-menu ul li .submenu {
   position: static;
@@ -1601,7 +1694,8 @@ input[type=color] {
   opacity: 1;
   display: none;
 }
-.oit-menu-mobile ul li .mega-menu li, .oit-menu-mobile ul li .submenu li,
+.oit-menu-mobile ul li .mega-menu li,
+.oit-menu-mobile ul li .submenu li,
 .oit-category-mobile-menu ul li .mega-menu li,
 .oit-category-mobile-menu ul li .submenu li {
   float: none;
@@ -1609,16 +1703,23 @@ input[type=color] {
   width: 100%;
   padding: 0;
 }
-.oit-menu-mobile ul li .mega-menu li:hover a .dropdown-toggle-btn, .oit-menu-mobile ul li .submenu li:hover a .dropdown-toggle-btn,
+.oit-menu-mobile ul li .mega-menu li:hover a .dropdown-toggle-btn,
+.oit-menu-mobile ul li .submenu li:hover a .dropdown-toggle-btn,
 .oit-category-mobile-menu ul li .mega-menu li:hover a .dropdown-toggle-btn,
 .oit-category-mobile-menu ul li .submenu li:hover a .dropdown-toggle-btn {
   color: var(--oit-theme-1);
 }
 .oit-menu-mobile .oit-menu-content ul li:not(:last-child) .home-img-title a,
-.oit-category-mobile-menu .oit-menu-content ul li:not(:last-child) .home-img-title a {
+.oit-category-mobile-menu
+  .oit-menu-content
+  ul
+  li:not(:last-child)
+  .home-img-title
+  a {
   border-bottom: none;
 }
-.oit-menu-mobile * ul, .oit-menu-mobile * li,
+.oit-menu-mobile * ul,
+.oit-menu-mobile * li,
 .oit-category-mobile-menu * ul,
 .oit-category-mobile-menu * li {
   transition: none !important;
@@ -1638,7 +1739,9 @@ input[type=color] {
     font-size: 40px;
   }
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px) {
   .postbox-title {
     font-size: 35px;
   }
@@ -1658,7 +1761,9 @@ input[type=color] {
   padding: 40px 50px;
   background-color: var(--oit-clr-white);
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px) {
   .postbox-left {
     margin-right: 0;
     padding: 30px 40px;
@@ -1674,7 +1779,9 @@ input[type=color] {
   margin-right: 0;
   margin-left: 80px;
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px) {
   .postbox-left.left-style {
     margin-left: 0;
   }
@@ -1698,7 +1805,9 @@ input[type=color] {
     padding-left: 30px;
   }
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .postbox-content .postbox-banner-wrap .postbox-dsc {
     padding-left: 0;
   }
@@ -1709,7 +1818,10 @@ input[type=color] {
   line-height: 1.5;
   letter-spacing: 0;
 }
-@media only screen and (min-width: 1400px) and (max-width: 1599px), only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 1400px) and (max-width: 1599px),
+  only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px) {
   .postbox-content .postbox-dsc p {
     font-size: 16px;
   }
@@ -1731,7 +1843,10 @@ input[type=color] {
   letter-spacing: -0.04em;
   color: var(--oit-grey-2);
 }
-@media only screen and (min-width: 1400px) and (max-width: 1599px), only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 1400px) and (max-width: 1599px),
+  only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px) {
   .postbox-dsc p {
     font-size: 16px;
   }
@@ -1749,7 +1864,11 @@ input[type=color] {
 .postbox-banner img {
   max-width: inherit;
 }
-@media only screen and (min-width: 1400px) and (max-width: 1599px), only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 1400px) and (max-width: 1599px),
+  only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .postbox-banner img {
     width: 100%;
     height: 100%;
@@ -1773,12 +1892,18 @@ input[type=color] {
     padding-left: 95px;
   }
 }
-@media only screen and (min-width: 1400px) and (max-width: 1599px), only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 1400px) and (max-width: 1599px),
+  only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .postbox-banner-wrap .postbox-dsc {
     padding-left: 0;
   }
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .postbox-tag {
     margin-bottom: 20px;
   }
@@ -1867,7 +1992,9 @@ input[type=color] {
   border-radius: 50%;
   margin-right: 30px;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .postbox-user-thumb img {
     height: 110px;
     width: 110px;
@@ -1885,7 +2012,9 @@ input[type=color] {
   margin-bottom: 0;
   color: var(--oit-grey-2);
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .postbox-user-info p {
     font-size: 16px;
   }
@@ -1896,7 +2025,9 @@ input[type=color] {
   line-height: 1.33;
   margin-bottom: 12px;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .postbox-user-info .user-title {
     font-size: 20px;
   }
@@ -1906,9 +2037,15 @@ input[type=color] {
   padding: 50px;
   list-style-type: none;
   backdrop-filter: blur(40px);
-  background: linear-gradient(209deg, rgba(13, 13, 13, 0.1) 0%, rgba(13, 13, 13, 0.2) 100%);
+  background: linear-gradient(
+    209deg,
+    rgba(13, 13, 13, 0.1) 0%,
+    rgba(13, 13, 13, 0.2) 100%
+  );
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .postbox-comment ul li {
     padding: 40px;
   }
@@ -1980,12 +2117,14 @@ input[type=color] {
 .postbox-sidebar.right-sidebar {
   margin-left: -23px;
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px) {
   .postbox-sidebar.right-sidebar {
     margin-left: 0;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .postbox-sidebar.right-sidebar {
     margin-left: 0;
     margin-top: 70px;
@@ -1995,12 +2134,14 @@ input[type=color] {
   margin-left: 0;
   margin-right: -23px;
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px) {
   .postbox-sidebar.left-style {
     margin-right: 0;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .postbox-sidebar.left-style {
     margin-right: 0;
     margin-bottom: 50px;
@@ -2018,7 +2159,9 @@ input[type=color] {
 .postbox-area.blog-standard-style .blog-details-breadcrumb-badges .badge {
   background-color: var(--oit-clr-white);
 }
-.postbox-area.blog-standard-style .blog-details-breadcrumb-badges .badge:first-child {
+.postbox-area.blog-standard-style
+  .blog-details-breadcrumb-badges
+  .badge:first-child {
   margin-left: 0;
 }
 .postbox-video-btn {
@@ -2096,7 +2239,8 @@ input[type=color] {
   border-radius: 10px;
   border: 1px solid rgba(121, 121, 121, 0.2);
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px) {
   .oit-pagination ul li a {
     width: 50px;
     height: 50px;
@@ -2160,7 +2304,8 @@ input[type=color] {
   padding: 20px 30px 30px 30px;
   background-color: var(--oit-clr-white);
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  (max-width: 767px) {
   .sidebar-widget {
     padding: 45px 25px;
   }
@@ -2173,7 +2318,11 @@ input[type=color] {
   margin-bottom: 30px;
   border-bottom: 1px solid rgba(73, 73, 73, 0.3);
 }
-@media only screen and (min-width: 1400px) and (max-width: 1599px), only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 1400px) and (max-width: 1599px),
+  only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .sidebar-widget-title {
     font-size: 24px;
   }
@@ -2193,7 +2342,11 @@ input[type=color] {
   text-transform: capitalize;
   justify-content: space-between;
 }
-@media only screen and (min-width: 1400px) and (max-width: 1599px), only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 1400px) and (max-width: 1599px),
+  only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .sidebar-widget-list {
     font-size: 16px;
   }
@@ -2236,12 +2389,15 @@ input[type=color] {
   line-height: 1.5;
   margin-bottom: 0;
 }
-@media only screen and (min-width: 1400px) and (max-width: 1599px), only screen and (min-width: 1200px) and (max-width: 1399px) {
+@media only screen and (min-width: 1400px) and (max-width: 1599px),
+  only screen and (min-width: 1200px) and (max-width: 1399px) {
   .sidebar-widget-post .rc-post-title {
     font-size: 18px;
   }
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .sidebar-widget-post .rc-post-title {
     font-size: 16px;
   }
@@ -2256,14 +2412,18 @@ input[type=color] {
   display: flex;
   align-items: center;
 }
-.sidebar-widget-post .rc-meta span i, .sidebar-widget-post .rc-meta span svg {
+.sidebar-widget-post .rc-meta span i,
+.sidebar-widget-post .rc-meta span svg {
   margin-right: 7px;
 }
 
 /*----------------------------------------*/
 /*  5.4 Blog css
 /*----------------------------------------*/
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .oit-blog-area {
     padding-top: 70px;
     padding-bottom: 40px;
@@ -2292,12 +2452,15 @@ input[type=color] {
     font-size: 35px;
   }
 }
-@media only screen and (min-width: 1400px) and (max-width: 1599px), only screen and (min-width: 1200px) and (max-width: 1399px) {
+@media only screen and (min-width: 1400px) and (max-width: 1599px),
+  only screen and (min-width: 1200px) and (max-width: 1399px) {
   .oit-blog-title {
     font-size: 30px;
   }
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .oit-blog-title {
     font-size: 25px;
   }
@@ -2321,7 +2484,9 @@ input[type=color] {
 .blog-details-breadcrumb-area {
   padding-top: 245px;
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px) {
   .blog-details-breadcrumb-area {
     padding-top: 200px;
   }
@@ -2349,7 +2514,9 @@ input[type=color] {
     transform: scale(0.7);
   }
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .blog-details-breadcrumb-area.breadcrumb-style-2 .shape {
     display: none;
   }
@@ -2359,7 +2526,9 @@ input[type=color] {
   right: 8%;
   top: 40%;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .blog-details-breadcrumb-area.breadcrumb-style-2 .shape-2 {
     display: none;
   }
@@ -2379,7 +2548,8 @@ input[type=color] {
   background-color: var(--oit-grey-1);
   border: 1px solid rgba(13, 13, 13, 0.05);
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .blog-details-breadcrumb-badges .badge {
     margin-bottom: 10px;
   }
@@ -2393,7 +2563,9 @@ input[type=color] {
   margin-bottom: 55px;
   border-bottom: 1px solid #d9d9d9;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .blog-details-breadcrumb-badges.badges-style-2 {
     padding-bottom: 30px;
     margin-bottom: 40px;
@@ -2456,7 +2628,10 @@ input[type=color] {
   padding: 20px 30px 20px 20px;
   background-color: var(--oit-grey-1);
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .blog-details-breadcrumb-author-wrap {
     margin-bottom: 100px;
   }
@@ -2529,7 +2704,8 @@ input[type=color] {
     font-size: 24px;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .blog-details-date-box span {
     font-size: 15px;
   }
@@ -2544,7 +2720,8 @@ input[type=color] {
     font-size: 24px;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .blog-details-date-box strong {
     font-size: 15px;
   }
@@ -2553,7 +2730,10 @@ input[type=color] {
 /*----------------------------------------*/
 /*  6.1 Footer Style 1
 /*----------------------------------------*/
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .oit-footer-area {
     padding-top: 70px;
     padding-bottom: 0px;
@@ -2566,7 +2746,11 @@ input[type=color] {
   background-color: #101216;
   border: 1px solid rgba(255, 255, 255, 0.05);
 }
-@media only screen and (min-width: 1400px) and (max-width: 1599px), only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 1400px) and (max-width: 1599px),
+  only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .oit-footer-widget {
     padding: 30px;
   }
@@ -2619,7 +2803,8 @@ input[type=color] {
     font-size: 25px;
   }
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), (max-width: 767px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  (max-width: 767px) {
   .oit-footer-widget-info a {
     font-size: 24px;
   }
@@ -2678,7 +2863,8 @@ input[type=color] {
     display: none;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .oit-footer-2-widget p {
     font-size: 18px;
   }
@@ -2743,7 +2929,10 @@ input[type=color] {
   border-color: var(--oit-clr-white);
   background-color: var(--oit-clr-white);
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .oit-footer-2-area {
     padding-top: 70px;
   }
@@ -2767,11 +2956,13 @@ input[type=color] {
     margin-bottom: 60px;
   }
 }
-.footer-widget-2-2, .footer-widget-2-4 {
+.footer-widget-2-2,
+.footer-widget-2-4 {
   padding-left: 115px;
 }
 @media (max-width: 767px) {
-  .footer-widget-2-2, .footer-widget-2-4 {
+  .footer-widget-2-2,
+  .footer-widget-2-4 {
     padding-left: 0;
   }
 }
@@ -2784,7 +2975,8 @@ input[type=color] {
 .oit-copyright-2-style .oit-copyright-left p {
   color: var(--oit-clr-white);
 }
-.oit-copyright-2-style .oit-copyright-right a, .oit-copyright-2-style .oit-copyright-right span {
+.oit-copyright-2-style .oit-copyright-right a,
+.oit-copyright-2-style .oit-copyright-right span {
   color: var(--oit-clr-white);
 }
 
@@ -2826,7 +3018,8 @@ input[type=color] {
   letter-spacing: -0.01em;
   color: var(--oit-clr-white);
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .oit-hero-content p {
     font-size: 16px;
   }
@@ -2943,7 +3136,8 @@ input[type=color] {
     padding-bottom: 80px;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .oit-about-area {
     padding-top: 80px;
     padding-bottom: 80px;
@@ -2972,7 +3166,8 @@ input[type=color] {
     display: none;
   }
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 768px) and (max-width: 991px) {
   .oit-about-text p {
     font-size: 35px;
   }
@@ -3010,7 +3205,12 @@ input[type=color] {
   height: 100%;
   padding-right: 80px;
 }
-@media only screen and (min-width: 1600px) and (max-width: 1700px), only screen and (min-width: 1400px) and (max-width: 1599px), only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 1600px) and (max-width: 1700px),
+  only screen and (min-width: 1400px) and (max-width: 1599px),
+  only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .oit-about-content {
     padding-right: 0;
   }
@@ -3026,8 +3226,14 @@ input[type=color] {
   line-height: 1.8;
   margin-bottom: 130px;
   letter-spacing: -0.04em;
+  max-width: 500px;
 }
-@media only screen and (min-width: 1600px) and (max-width: 1700px), only screen and (min-width: 1400px) and (max-width: 1599px), only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 1600px) and (max-width: 1700px),
+  only screen and (min-width: 1400px) and (max-width: 1599px),
+  only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .oit-about-content p br {
     display: none;
   }
@@ -3064,7 +3270,8 @@ input[type=color] {
     right: 5%;
   }
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px) {
   .oit-about-btn {
     padding-bottom: 65px;
   }
@@ -3078,7 +3285,9 @@ input[type=color] {
 /*----------------------------------------*/
 /* project css start here
 /*----------------------------------------*/
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .oit-project-area {
     padding-top: 70px;
   }
@@ -3121,7 +3330,8 @@ input[type=color] {
 .oit-project-area.project-style-2 .project-item-5 {
   margin-top: 80px;
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .oit-project-area.project-style-2 .project-item-5 {
     margin-top: 20px;
   }
@@ -3150,7 +3360,9 @@ input[type=color] {
     font-size: 25px;
   }
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .oit-project-area.project-style-2 .oit-project-category span {
     font-size: 16px;
   }
@@ -3166,7 +3378,8 @@ input[type=color] {
     transform: scale(0.6);
   }
 }
-@media only screen and (min-width: 1400px) and (max-width: 1599px), only screen and (min-width: 1200px) and (max-width: 1399px) {
+@media only screen and (min-width: 1400px) and (max-width: 1599px),
+  only screen and (min-width: 1200px) and (max-width: 1399px) {
   .oit-project-shape {
     top: 0;
     right: -4%;
@@ -3199,7 +3412,8 @@ input[type=color] {
   letter-spacing: -0.01em;
   color: var(--oit-clr-black);
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px) {
   .oit-project-title {
     font-size: 35px;
   }
@@ -3256,12 +3470,16 @@ input[type=color] {
 /*----------------------------------------*/
 /* service css start here
 /*----------------------------------------*/
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .oit-service-area {
     padding-top: 80px;
   }
 }
-@media only screen and (min-width: 1400px) and (max-width: 1599px), only screen and (min-width: 1200px) and (max-width: 1399px) {
+@media only screen and (min-width: 1400px) and (max-width: 1599px),
+  only screen and (min-width: 1200px) and (max-width: 1399px) {
   .oit-service-area .oit-project-shape {
     top: 2%;
     right: 4%;
@@ -3273,7 +3491,11 @@ input[type=color] {
   margin: 0 125px;
   margin-bottom: 50px;
 }
-@media only screen and (min-width: 1600px) and (max-width: 1700px), only screen and (min-width: 1400px) and (max-width: 1599px), only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 1600px) and (max-width: 1700px),
+  only screen and (min-width: 1400px) and (max-width: 1599px),
+  only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px) {
   .oit-service-item {
     margin: 0;
     margin-bottom: 50px;
@@ -3293,7 +3515,8 @@ input[type=color] {
   border-radius: 14px;
   border: 2px solid var(--oit-clr-white);
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px) {
   .oit-service-thumb {
     margin-right: 0;
     margin-bottom: 30px;
@@ -3318,7 +3541,8 @@ input[type=color] {
     margin-bottom: 25px;
   }
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px) {
   .oit-service-title {
     font-size: 35px;
     margin-bottom: 25px;
@@ -3330,7 +3554,9 @@ input[type=color] {
     margin-bottom: 20px;
   }
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .oit-service-content-wrap {
     flex-wrap: wrap;
   }
@@ -3390,11 +3616,13 @@ input[type=color] {
 .oit-funfact-title i {
   font-style: normal;
 }
-.oit-funfact-area .row > [class^=col]:not(:last-child) .oit-funfact-item {
+.oit-funfact-area .row > [class^="col"]:not(:last-child) .oit-funfact-item {
   border-inline-end: 1px solid rgba(0, 0, 0, 0.1);
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
-  .oit-funfact-area .row > [class^=col]:not(:last-child) .oit-funfact-item {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
+  .oit-funfact-area .row > [class^="col"]:not(:last-child) .oit-funfact-item {
     border-inline-end: 0;
   }
 }
@@ -3407,7 +3635,9 @@ input[type=color] {
     padding: 40px 20px;
   }
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .oit-funfact-item {
     padding: 30px 0;
     border-right: 0;
@@ -3428,14 +3658,17 @@ input[type=color] {
   border-top: 1px solid rgba(0, 0, 0, 0.1);
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
-.oit-funfact-area .row [class*=col-]:last-child .oit-funfact-item {
+.oit-funfact-area .row [class*="col-"]:last-child .oit-funfact-item {
   border-right: 0;
 }
 
 /*----------------------------------------*/
 /* award css start here
 /*----------------------------------------*/
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .oit-award-area {
     padding-top: 80px;
     padding-bottom: 80px;
@@ -3473,7 +3706,8 @@ input[type=color] {
     flex-direction: column;
   }
 }
-.oit-award-content p, .oit-award-content span {
+.oit-award-content p,
+.oit-award-content span {
   font-weight: 500;
   font-size: 30px;
   line-height: 0.87;
@@ -3481,17 +3715,22 @@ input[type=color] {
   transition: all 0.3s ease-in-out;
 }
 @media only screen and (min-width: 1400px) and (max-width: 1599px) {
-  .oit-award-content p, .oit-award-content span {
+  .oit-award-content p,
+  .oit-award-content span {
     font-size: 25px;
   }
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px) {
-  .oit-award-content p, .oit-award-content span {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px) {
+  .oit-award-content p,
+  .oit-award-content span {
     font-size: 20px;
   }
 }
 @media (max-width: 767px) {
-  .oit-award-content p, .oit-award-content span {
+  .oit-award-content p,
+  .oit-award-content span {
     flex-wrap: wrap;
     font-size: 18px;
     text-align: center;
@@ -3533,7 +3772,10 @@ input[type=color] {
 /*----------------------------------------*/
 /* team css start here
 /*----------------------------------------*/
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .oit-team-area {
     padding-top: 80px;
     padding-bottom: 60px;
@@ -3542,9 +3784,11 @@ input[type=color] {
 .oit-team-item {
   padding: 55px 50px;
   border-radius: 10px;
-  background-color: #F5F5F5;
+  background-color: #f5f5f5;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .oit-team-item {
     padding: 30px 30px;
   }
@@ -3598,7 +3842,8 @@ input[type=color] {
   line-height: 1;
   color: var(--oit-clr-black);
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px) {
   .oit-team-social span {
     font-size: 20px;
   }
@@ -3620,7 +3865,10 @@ input[type=color] {
 /*----------------------------------------*/
 /* price css start here
 /*----------------------------------------*/
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .oit-price-area {
     padding-top: 80px;
     padding-bottom: 50px;
@@ -3639,17 +3887,24 @@ input[type=color] {
   background-color: #101216;
   border: 1px solid rgba(255, 255, 255, 0.1);
 }
-@media only screen and (min-width: 1400px) and (max-width: 1599px), only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 1400px) and (max-width: 1599px),
+  only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .oit-price-item {
     min-height: auto;
   }
 }
-@media only screen and (min-width: 1400px) and (max-width: 1599px), only screen and (min-width: 1200px) and (max-width: 1399px) {
+@media only screen and (min-width: 1400px) and (max-width: 1599px),
+  only screen and (min-width: 1200px) and (max-width: 1399px) {
   .oit-price-item {
     padding: 35px 40px;
   }
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .oit-price-item {
     padding: 30px;
   }
@@ -3660,7 +3915,8 @@ input[type=color] {
   line-height: 1.3;
   color: var(--oit-clr-white);
 }
-@media only screen and (min-width: 1400px) and (max-width: 1599px), only screen and (min-width: 1200px) and (max-width: 1399px) {
+@media only screen and (min-width: 1400px) and (max-width: 1599px),
+  only screen and (min-width: 1200px) and (max-width: 1399px) {
   .oit-price-title {
     font-size: 25px;
   }
@@ -3675,7 +3931,8 @@ input[type=color] {
   margin-bottom: 40px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .oit-price-head {
     flex-wrap: wrap;
   }
@@ -3715,7 +3972,7 @@ input[type=color] {
 .oit-price-head-btn .nav {
   padding: 6px;
   border-radius: 1000px;
-  background-color: #0D0D0D;
+  background-color: #0d0d0d;
   border: 1px solid rgba(255, 255, 255, 0.1);
 }
 .oit-price-head-btn .nav button {
@@ -3729,13 +3986,15 @@ input[type=color] {
   color: var(--oit-clr-white);
   background-color: transparent;
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px) {
   .oit-price-head-btn .nav button {
     font-size: 16px;
     padding: 10px 19px;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .oit-price-head-btn .nav button {
     padding: 11px 20px;
   }
@@ -3772,7 +4031,7 @@ input[type=color] {
   padding: 20px 40px;
   padding-right: 20px;
   border-radius: 10px;
-  background-color: #0D0D0D;
+  background-color: #0d0d0d;
   border: 1px solid rgba(255, 255, 255, 0.1);
 }
 @media (max-width: 767px) {
@@ -3822,12 +4081,12 @@ input[type=color] {
   margin-right: 7px;
   border-radius: 50%;
   display: inline-block;
-  background-color: #15DB46;
+  background-color: #15db46;
 }
 .oit-price-info {
   padding: 40px 40px;
   border-radius: 10px;
-  background-color: #0D0D0D;
+  background-color: #0d0d0d;
   border: 1px solid rgba(255, 255, 255, 0.1);
 }
 @media only screen and (min-width: 1400px) and (max-width: 1599px) {
@@ -3877,7 +4136,9 @@ input[type=color] {
 /*----------------------------------------*/
 /* faq css start here
 /*----------------------------------------*/
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .oit-faq-area {
     padding-top: 70px;
     padding-bottom: 50px;
@@ -3893,7 +4154,8 @@ input[type=color] {
     padding: 30px;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .oit-faq-style .oit-price-item {
     padding: 30px;
     width: 100%;
@@ -3918,7 +4180,11 @@ input[type=color] {
   padding-right: 40px;
   font-family: var(--oit-ff-funnel);
 }
-@media only screen and (min-width: 1400px) and (max-width: 1599px), only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 1400px) and (max-width: 1599px),
+  only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .oit-faq-accordion-wrap .accordion-button {
     font-size: 20px;
   }
@@ -3942,7 +4208,11 @@ input[type=color] {
   line-height: 1.6;
   letter-spacing: -0.04em;
 }
-@media only screen and (min-width: 1400px) and (max-width: 1599px), only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 1400px) and (max-width: 1599px),
+  only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .oit-faq-accordion-wrap .accordion-body p {
     font-size: 15px;
   }
@@ -3959,7 +4229,9 @@ input[type=color] {
 /*----------------------------------------*/
 /* text-slider css start here
 /*----------------------------------------*/
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .oit-text-slider-area {
     padding-top: 70px;
     padding-bottom: 60px;
@@ -4021,12 +4293,14 @@ input[type=color] {
   border-left: 1px dashed var(--oit-clr-black);
   border-right: 1px dashed var(--oit-clr-black);
 }
-@media only screen and (min-width: 1400px) and (max-width: 1599px), only screen and (min-width: 1200px) and (max-width: 1399px) {
+@media only screen and (min-width: 1400px) and (max-width: 1599px),
+  only screen and (min-width: 1200px) and (max-width: 1399px) {
   .dg-hero-bdr {
     padding-left: 20px;
   }
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px) {
   .dg-hero-bdr {
     padding-left: 20px;
     padding-top: 120px;
@@ -4078,7 +4352,8 @@ input[type=color] {
     margin-bottom: 0;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .dg-hero-title-box {
     margin-bottom: 20px;
   }
@@ -4087,12 +4362,16 @@ input[type=color] {
   transform: translateY(-16px);
   border-radius: 1000px;
 }
-@media only screen and (min-width: 1600px) and (max-width: 1700px), only screen and (min-width: 1400px) and (max-width: 1599px) {
+@media only screen and (min-width: 1600px) and (max-width: 1700px),
+  only screen and (min-width: 1400px) and (max-width: 1599px) {
   .dg-hero-title img {
     transform: translateY(0);
   }
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .dg-hero-title img {
     display: none;
   }
@@ -4105,7 +4384,11 @@ input[type=color] {
   letter-spacing: -0.01em;
   color: var(--oit-clr-black);
 }
-@media only screen and (min-width: 1400px) and (max-width: 1599px), only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 1400px) and (max-width: 1599px),
+  only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .dg-hero-content p br {
     display: none;
   }
@@ -4127,12 +4410,16 @@ input[type=color] {
     max-width: 40%;
   }
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .dg-hero-img {
     border-radius: 10px;
   }
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .dg-hero-img {
     position: static;
     max-width: 40%;
@@ -4144,7 +4431,9 @@ input[type=color] {
 /*----------------------------------------*/
 /* about css start here
 /*----------------------------------------*/
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .dg-about-style {
     padding-top: 70px;
   }
@@ -4154,7 +4443,9 @@ input[type=color] {
     padding-bottom: 30px;
   }
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .dg-about-style .oit-about-text {
     margin-bottom: 40px;
   }
@@ -4166,7 +4457,9 @@ input[type=color] {
 .dg-about-style .oit-about-content {
   height: auto;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .dg-about-style .oit-about-content {
     margin-bottom: 40px;
   }
@@ -4175,12 +4468,15 @@ input[type=color] {
   margin-bottom: 40px;
   padding-right: 120px;
 }
-@media only screen and (min-width: 1400px) and (max-width: 1599px), only screen and (min-width: 1200px) and (max-width: 1399px) {
+@media only screen and (min-width: 1400px) and (max-width: 1599px),
+  only screen and (min-width: 1200px) and (max-width: 1399px) {
   .dg-about-style .oit-about-content p {
     padding-right: 0;
   }
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .dg-about-style .oit-about-content p {
     padding-right: 0;
     font-size: 16px;
@@ -4195,7 +4491,8 @@ input[type=color] {
     margin-bottom: 30px;
   }
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  (max-width: 767px) {
   .dg-about-style .oit-funfact-item span {
     font-size: 14px;
   }
@@ -4211,7 +4508,8 @@ input[type=color] {
   top: 8%;
   right: 10%;
 }
-@media only screen and (min-width: 1400px) and (max-width: 1599px), only screen and (min-width: 1200px) and (max-width: 1399px) {
+@media only screen and (min-width: 1400px) and (max-width: 1599px),
+  only screen and (min-width: 1200px) and (max-width: 1399px) {
   .dg-about-shape {
     right: 3%;
   }
@@ -4224,7 +4522,8 @@ input[type=color] {
   padding: 20px;
   border: 1px solid rgba(255, 255, 255, 0.1);
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .dg-service-style .oit-service-item {
     flex-wrap: wrap;
   }
@@ -4259,13 +4558,15 @@ input[type=color] {
   margin-right: 0;
   border: 2px solid var(--oit-clr-white);
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .dg-service-style .oit-service-thumb {
     margin-bottom: 0;
     width: 100%;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .dg-service-style .oit-service-thumb img {
     width: 100%;
   }
@@ -4274,7 +4575,9 @@ input[type=color] {
 /*----------------------------------------*/
 /* project css start here
 /*----------------------------------------*/
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .dg-project-style {
     padding-top: 60px;
     padding-bottom: 60px;
@@ -4302,7 +4605,10 @@ input[type=color] {
     margin-bottom: 60px;
   }
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .dg-project-style .oit-project-btn {
     margin-top: 0px;
   }
@@ -4311,7 +4617,10 @@ input[type=color] {
 /*----------------------------------------*/
 /* funfact css start here
 /*----------------------------------------*/
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .dg-funfact-area {
     padding-top: 70px;
     padding-bottom: 70px;
@@ -4320,7 +4629,10 @@ input[type=color] {
 .dg-funfact-style .oit-award-title-box p {
   padding-right: 110px;
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .dg-funfact-style .oit-award-title-box p {
     padding-right: 0;
   }
@@ -4337,7 +4649,10 @@ input[type=color] {
   margin-bottom: 0;
   text-align: end;
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .dg-funfact-item p {
     font-size: 16px;
   }
@@ -4354,7 +4669,10 @@ input[type=color] {
     font-size: 90px;
   }
 }
-@media only screen and (min-width: 1400px) and (max-width: 1599px), only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 1400px) and (max-width: 1599px),
+  only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px) {
   .dg-funfact-title {
     font-size: 80px;
   }
@@ -4374,7 +4692,10 @@ input[type=color] {
 /*----------------------------------------*/
 /* bin-to-card css start here
 /*----------------------------------------*/
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .oit-bin-to-card-area {
     padding-top: 70px;
     padding-bottom: 40px;
@@ -4523,7 +4844,10 @@ input[type=color] {
 /*----------------------------------------*/
 /* team css start here
 /*----------------------------------------*/
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .dg-team-area {
     padding-top: 80px;
     padding-bottom: 60px;
@@ -4580,12 +4904,16 @@ input[type=color] {
   right: 7%;
   top: -16%;
 }
-@media only screen and (min-width: 1400px) and (max-width: 1599px), only screen and (min-width: 1200px) and (max-width: 1399px) {
+@media only screen and (min-width: 1400px) and (max-width: 1599px),
+  only screen and (min-width: 1200px) and (max-width: 1399px) {
   .dg-team-shape {
     transform: scale(0.6);
   }
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .dg-team-btn {
     padding-top: 0;
   }
@@ -4594,7 +4922,9 @@ input[type=color] {
 /*----------------------------------------*/
 /* step css start here
 /*----------------------------------------*/
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .dg-step-area {
     padding-top: 60px;
     padding-bottom: 40px;
@@ -4622,7 +4952,11 @@ input[type=color] {
   letter-spacing: -0.8px;
   margin-bottom: 0;
 }
-@media only screen and (min-width: 1400px) and (max-width: 1599px), only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 1400px) and (max-width: 1599px),
+  only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .dg-step-item p {
     font-size: 16px;
   }
@@ -4645,7 +4979,8 @@ input[type=color] {
     font-size: 80px;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .dg-step-big-text {
     font-size: 60px;
   }
@@ -4659,7 +4994,10 @@ input[type=color] {
 /*----------------------------------------*/
 /* testimonial css start here
 /*----------------------------------------*/
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .dg-testimonial-area {
     padding-top: 70px;
     padding-bottom: 70px;
@@ -4671,7 +5009,9 @@ input[type=color] {
   border-radius: 10px;
   background-color: var(--oit-clr-white);
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .dg-testimonial-item {
     min-height: 500px;
   }
@@ -4688,7 +5028,8 @@ input[type=color] {
     font-size: 27px;
   }
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px) {
   .dg-testimonial-item p.text-large {
     font-size: 20px;
   }
@@ -4737,7 +5078,9 @@ input[type=color] {
     transform: scale(0.5);
   }
 }
-@media only screen and (min-width: 1400px) and (max-width: 1599px), only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px) {
+@media only screen and (min-width: 1400px) and (max-width: 1599px),
+  only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px) {
   .dg-testimonial-shape {
     right: -3%;
     transform: scale(0.5);
@@ -4753,7 +5096,10 @@ input[type=color] {
 .dg-testimonial-active {
   margin-right: -555px;
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .dg-testimonial-active {
     margin-right: 0;
   }
@@ -4762,13 +5108,18 @@ input[type=color] {
 /*----------------------------------------*/
 /* contact css start here
 /*----------------------------------------*/
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .dg-contact-area {
     padding-top: 70px;
     padding-bottom: 70px;
   }
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .dg-contact-area.faq-style .dg-contact-info-wrap {
     padding-bottom: 40px;
   }
@@ -4907,7 +5258,9 @@ input[type=color] {
 .dg-contact-shape-1 img {
   opacity: 0.3;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .dg-contact-left {
     padding-top: 0;
   }
@@ -4928,7 +5281,7 @@ input[type=color] {
   width: 100%;
   height: 100%;
   z-index: -1;
-  opacity: .4;
+  opacity: 0.3;
 }
 .st-hero-bg img {
   width: 100%;
@@ -4938,7 +5291,7 @@ input[type=color] {
   font-weight: 700;
   font-size: 240px;
   line-height: 1;
-  text-transform: uppercase;
+  text-transform: capitalize;
   padding-bottom: 250px;
 }
 @media only screen and (min-width: 1600px) and (max-width: 1700px) {
@@ -4954,13 +5307,14 @@ input[type=color] {
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .st-hero-title {
-    font-size: 150px;
+    font-size: 60px;
     padding-bottom: 80px;
   }
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px) {
   .st-hero-title {
-    font-size: 130px;
+    font-size: 30px;
     padding-bottom: 60px;
   }
 }
@@ -4989,7 +5343,11 @@ input[type=color] {
   transform: translateY(220px);
   margin-left: 30px;
 }
-@media only screen and (min-width: 1400px) and (max-width: 1599px), only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 1400px) and (max-width: 1599px),
+  only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .st-hero-title span:last-child {
     transform: translateY(0);
     margin-left: 0px;
@@ -5004,7 +5362,10 @@ input[type=color] {
   letter-spacing: -0.01em;
   color: var(--oit-clr-white);
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .st-hero-content p {
     padding-right: 0;
     font-size: 16px;
@@ -5050,7 +5411,10 @@ input[type=color] {
 /*----------------------------------------*/
 /* service css start here
 /*----------------------------------------*/
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .st-service-area {
     padding-top: 70px;
     padding-bottom: 70px;
@@ -5068,7 +5432,9 @@ input[type=color] {
   background-color: var(--oit-clr-white);
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .st-service-style .oit-service-item {
     flex-wrap: wrap;
     padding-bottom: 45px;
@@ -5077,7 +5443,9 @@ input[type=color] {
 .st-service-style .oit-service-thumb {
   margin-right: 0;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .st-service-style .oit-service-thumb {
     width: 100%;
     height: 400px;
@@ -5100,7 +5468,8 @@ input[type=color] {
     font-size: 25px;
   }
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px) {
   .st-service-style .oit-service-content p {
     font-size: 20px;
   }
@@ -5184,7 +5553,10 @@ input[type=color] {
 /*----------------------------------------*/
 /* project css start here
 /*----------------------------------------*/
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .st-project-area {
     padding-top: 70px;
     padding-bottom: 70px;
@@ -5215,12 +5587,16 @@ input[type=color] {
     padding: 20px;
   }
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .st-project-subtitle-box {
     margin-bottom: 30px;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .st-project-subtitle-box {
     margin-bottom: 15px;
   }
@@ -5237,7 +5613,10 @@ input[type=color] {
     font-size: 20px;
   }
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .st-project-title-box {
     margin-bottom: 60px;
     padding-left: 0;
@@ -5262,7 +5641,10 @@ input[type=color] {
   overflow: hidden;
   border-radius: 15px;
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .st-project-btn {
     margin-top: 30px;
   }
@@ -5284,7 +5666,10 @@ input[type=color] {
 /*----------------------------------------*/
 /* price css start here
 /*----------------------------------------*/
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .st-price-area {
     padding-top: 70px;
     padding-bottom: 40px;
@@ -5309,7 +5694,10 @@ input[type=color] {
 .st-price-head p {
   margin-bottom: 0;
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .st-price-head p br {
     display: none;
   }
@@ -5317,7 +5705,8 @@ input[type=color] {
 .st-price-body {
   padding: 30px;
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .st-price-body {
     padding: 20px;
   }
@@ -5372,7 +5761,7 @@ input[type=color] {
   margin-right: 7px;
   border-radius: 50%;
   display: inline-block;
-  background-color: #FF5E00;
+  background-color: #ff5e00;
   transform: translateY(-2px);
 }
 .st-price-list ul li:not(:last-child) {
@@ -5384,7 +5773,10 @@ input[type=color] {
   color: var(--oit-clr-black);
   border: 1px solid var(--oit-clr-black);
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .st-price-tab-btn {
     margin-top: 0px;
   }
@@ -5402,7 +5794,10 @@ input[type=color] {
 .st-testimonial-active {
   margin-right: -300px;
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .st-testimonial-active {
     margin-right: 0;
   }
@@ -5441,7 +5836,7 @@ input[type=color] {
   margin-bottom: 35px;
 }
 .st-testimonial-ratting-icon i {
-  color: #FF5E00;
+  color: #ff5e00;
   margin: 0 2px;
   display: inline-block;
 }
@@ -5459,7 +5854,9 @@ input[type=color] {
   padding-top: 300px;
   padding-bottom: 40px;
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px) {
   .sd-hero-bg {
     padding-top: 230px;
   }
@@ -5520,7 +5917,8 @@ input[type=color] {
     margin-bottom: 100px;
   }
 }
-.sd-hero-info span, .sd-hero-info a {
+.sd-hero-info span,
+.sd-hero-info a {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.3;
@@ -5543,7 +5941,11 @@ input[type=color] {
   background: var(--oit-clr-white);
   box-shadow: 0 4px 50px 0 rgba(13, 13, 13, 0.05);
 }
-@media only screen and (min-width: 1400px) and (max-width: 1599px), only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 1400px) and (max-width: 1599px),
+  only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .sd-about-mission-wrap {
     min-width: auto;
   }
@@ -5577,7 +5979,10 @@ input[type=color] {
   letter-spacing: -0.02em;
   color: rgba(73, 73, 73, 0.8);
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .sd-about-mission-wrap .tab-content p br {
     display: none;
   }
@@ -5586,13 +5991,19 @@ input[type=color] {
 /*----------------------------------------*/
 /* service css start here
 /*----------------------------------------*/
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .sd-service-style.oit-service-area {
     padding-top: 70px;
     padding-bottom: 70px;
   }
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .sd-service-style .oit-section-title-box {
     margin-bottom: 40px;
   }
@@ -5610,7 +6021,9 @@ input[type=color] {
 .sd-service-style .oit-service-content-wrap {
   padding-right: 80px;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .sd-service-style .oit-service-content-wrap {
     padding-right: 20px;
   }
@@ -5621,14 +6034,16 @@ input[type=color] {
     margin-bottom: 30px;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .sd-service-style .oit-service-item {
     flex-wrap: wrap;
     padding: 30px;
     margin-bottom: 30px;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .sd-service-style .oit-service-content {
     margin-bottom: 30px;
   }
@@ -5643,7 +6058,10 @@ input[type=color] {
 /*----------------------------------------*/
 /* project css start here
 /*----------------------------------------*/
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .sd-project-area {
     padding-top: 70px;
   }
@@ -5671,7 +6089,9 @@ input[type=color] {
 .sd-funfact-card.card-1 {
   min-height: 200px;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .sd-funfact-card.card-1 {
     min-height: 300px;
   }
@@ -5689,7 +6109,9 @@ input[type=color] {
     min-height: 400px;
   }
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .sd-funfact-card.card-2 {
     min-height: 300px;
   }
@@ -5697,7 +6119,9 @@ input[type=color] {
 .sd-funfact-card.card-3 {
   min-height: 260px;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .sd-funfact-card.card-3 {
     min-height: 300px;
   }
@@ -5705,7 +6129,9 @@ input[type=color] {
 .sd-funfact-card.card-4 {
   min-height: 400px;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .sd-funfact-card.card-4 {
     min-height: 300px;
   }
@@ -5717,7 +6143,10 @@ input[type=color] {
   text-align: end;
   text-transform: uppercase;
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .sd-funfact-card span {
     font-size: 16px;
   }
@@ -5805,7 +6234,10 @@ input[type=color] {
 /*----------------------------------------*/
 /* team css start here
 /*----------------------------------------*/
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .sd-team-area .oit-section-title-box {
     margin-bottom: 40px;
   }
@@ -5821,7 +6253,7 @@ input[type=color] {
 .sd-team-row-item {
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
-.sd-team-row-item .row [class*=col]:not(:last-child) .sd-team-item {
+.sd-team-row-item .row [class*="col"]:not(:last-child) .sd-team-item {
   border-right: 1px solid rgba(0, 0, 0, 0.1);
 }
 .sd-team-thumb {
@@ -5847,7 +6279,9 @@ input[type=color] {
   height: 100%;
   padding: 30px 0;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .sd-team-item {
     padding: 15px 0;
   }
@@ -5977,7 +6411,12 @@ input[type=color] {
   content: "";
   position: absolute;
   inset: 0;
-  background: linear-gradient(to top, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0.9) 35%, rgba(0, 0, 0, 0) 75%);
+  background: linear-gradient(
+    to top,
+    rgb(0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.9) 35%,
+    rgba(0, 0, 0, 0) 75%
+  );
 }
 .oit-hero-5-glob img {
   animation: shape-rotate 60s linear infinite;
@@ -6015,7 +6454,9 @@ input[type=color] {
     padding-bottom: 70px;
   }
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .ba-about-area {
     padding-top: 70px;
     padding-bottom: 40px;
@@ -6036,12 +6477,18 @@ input[type=color] {
     font-size: 55px;
   }
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .ba-about-area .dg-about-content-wrap {
     padding-left: 0;
   }
 }
-.ba-about-vision-wrap .row [class*=col-]:not(:last-child) .ba-about-vision-item {
+.ba-about-vision-wrap
+  .row
+  [class*="col-"]:not(:last-child)
+  .ba-about-vision-item {
   border-right: 1px solid #d9d9d9;
 }
 .ba-about-vision-title {
@@ -6054,12 +6501,14 @@ input[type=color] {
 .ba-about-vision-inner {
   padding-left: 70px;
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px) {
   .ba-about-vision-inner {
     padding-left: 20px;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .ba-about-vision-inner {
     padding-left: 0;
   }
@@ -6090,7 +6539,8 @@ input[type=color] {
     padding-right: 70px;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .ba-about-vision-item p {
     padding-right: 0;
   }
@@ -6134,7 +6584,10 @@ input[type=color] {
 .ba-funfact-style .sd-funfact-title {
   margin-bottom: 0;
 }
-@media only screen and (min-width: 1600px) and (max-width: 1700px), only screen and (min-width: 1400px) and (max-width: 1599px), only screen and (min-width: 1200px) and (max-width: 1399px), (max-width: 767px) {
+@media only screen and (min-width: 1600px) and (max-width: 1700px),
+  only screen and (min-width: 1400px) and (max-width: 1599px),
+  only screen and (min-width: 1200px) and (max-width: 1399px),
+  (max-width: 767px) {
   .ba-funfact-style .sd-funfact-title {
     font-size: 35px;
   }
@@ -6187,7 +6640,11 @@ input[type=color] {
   margin-right: 50px;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
-@media only screen and (min-width: 1400px) and (max-width: 1599px), only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 1400px) and (max-width: 1599px),
+  only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .ba-service-tab-btn {
     margin-right: 0;
   }
@@ -6234,7 +6691,8 @@ input[type=color] {
     font-size: 25px;
   }
 }
-@media only screen and (min-width: 1400px) and (max-width: 1599px), only screen and (min-width: 1200px) and (max-width: 1399px) {
+@media only screen and (min-width: 1400px) and (max-width: 1599px),
+  only screen and (min-width: 1200px) and (max-width: 1399px) {
   .career-details-meta span {
     font-size: 18px;
   }
@@ -6244,7 +6702,8 @@ input[type=color] {
     font-size: 16px;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .career-details-meta span {
     font-size: 15px;
   }
@@ -6261,7 +6720,8 @@ input[type=color] {
     font-size: 25px;
   }
 }
-@media only screen and (min-width: 1400px) and (max-width: 1599px), only screen and (min-width: 1200px) and (max-width: 1399px) {
+@media only screen and (min-width: 1400px) and (max-width: 1599px),
+  only screen and (min-width: 1200px) and (max-width: 1399px) {
   .career-details-meta strong {
     font-size: 18px;
   }
@@ -6271,7 +6731,8 @@ input[type=color] {
     font-size: 16px;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .career-details-meta strong {
     font-size: 15px;
   }
@@ -6282,7 +6743,8 @@ input[type=color] {
   line-height: 1;
   border-right: 1px solid rgba(73, 73, 73, 0.5);
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px) {
   .career-details-meta:not(:last-child) {
     margin-bottom: 15px;
   }
@@ -6293,7 +6755,9 @@ input[type=color] {
     border: none;
   }
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .career-details-meta-box {
     flex-wrap: wrap;
     align-items: start !important;
@@ -6315,17 +6779,21 @@ input[type=color] {
   line-height: 1.5;
   color: var(--oit-clr-black);
 }
-@media only screen and (min-width: 1400px) and (max-width: 1599px), only screen and (min-width: 1200px) and (max-width: 1399px) {
+@media only screen and (min-width: 1400px) and (max-width: 1599px),
+  only screen and (min-width: 1200px) and (max-width: 1399px) {
   .career-details-list li span {
     font-size: 18px;
   }
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .career-details-list li span {
     font-size: 16px;
   }
 }
-.career-details-list li span svg, .career-details-list li span i {
+.career-details-list li span svg,
+.career-details-list li span i {
   position: absolute;
   top: 0;
   left: 0;
@@ -6335,7 +6803,11 @@ input[type=color] {
   font-size: 30px;
   line-height: 1.33;
 }
-@media only screen and (min-width: 1400px) and (max-width: 1599px), only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 1400px) and (max-width: 1599px),
+  only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .career-details-deadline span {
     font-size: 18px;
   }
@@ -6348,7 +6820,11 @@ input[type=color] {
   display: inline-block;
   color: var(--oit-clr-black);
 }
-@media only screen and (min-width: 1400px) and (max-width: 1599px), only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 1400px) and (max-width: 1599px),
+  only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .career-details-deadline strong {
     font-size: 18px;
   }
@@ -6358,7 +6834,9 @@ input[type=color] {
   font-weight: 600;
   letter-spacing: 0;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .career-details-area .postbox-dsc p {
     font-size: 16px;
   }
@@ -6369,7 +6847,12 @@ input[type=color] {
   border-radius: 10px;
   background-color: var(--oit-clr-white);
 }
-@media only screen and (min-width: 1600px) and (max-width: 1700px), only screen and (min-width: 1400px) and (max-width: 1599px), only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 1600px) and (max-width: 1700px),
+  only screen and (min-width: 1400px) and (max-width: 1599px),
+  only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .career-item {
     padding: 25px 20px;
   }
@@ -6399,7 +6882,11 @@ input[type=color] {
   margin-bottom: 10px;
   letter-spacing: -0.01em;
 }
-@media only screen and (min-width: 1400px) and (max-width: 1599px), only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 1400px) and (max-width: 1599px),
+  only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .career-item .title {
     font-size: 25px;
   }
@@ -6434,7 +6921,12 @@ input[type=color] {
   display: inline-block;
   text-transform: uppercase;
 }
-@media only screen and (min-width: 1600px) and (max-width: 1700px), only screen and (min-width: 1400px) and (max-width: 1599px), only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 1600px) and (max-width: 1700px),
+  only screen and (min-width: 1400px) and (max-width: 1599px),
+  only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .career-meta span {
     font-size: 12px;
   }
@@ -6446,7 +6938,7 @@ input[type=color] {
 .career-meta span:not(:last-child) {
   padding-right: 20px;
   margin-right: 20px;
-  border-right: 1px solid #D9D9D9;
+  border-right: 1px solid #d9d9d9;
 }
 .career-area .shape-1 {
   position: absolute;
@@ -6459,7 +6951,9 @@ input[type=color] {
   top: -10%;
   right: -8%;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .dg-step-area.career-style .shape {
     display: none;
   }
@@ -6547,7 +7041,9 @@ input[type=color] {
   right: -7%;
   opacity: 1;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .dg-contact-area.faq-style .dg-contact-shape-1 {
     display: none;
   }
@@ -6586,12 +7082,17 @@ input[type=color] {
 /*----------------------------------------*/
 /*  5.4 project details css
 /*----------------------------------------*/
-@media only screen and (min-width: 1400px) and (max-width: 1599px), only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 1400px) and (max-width: 1599px),
+  only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .project-details-area {
     padding: 70px 0;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .project-details-area .project-details-thumb-box.mb-110 {
     margin-bottom: 50px !important;
   }
@@ -6608,7 +7109,9 @@ input[type=color] {
     font-size: 25px;
   }
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px) {
   .project-details-area .postbox-dsc p {
     margin-right: 0;
     font-size: 20px;
@@ -6632,12 +7135,17 @@ input[type=color] {
   display: inline-block;
   margin-bottom: 5px;
 }
-@media only screen and (min-width: 1400px) and (max-width: 1599px), only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 1400px) and (max-width: 1599px),
+  only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .project-details-area .career-details-list li span {
     font-size: 16px;
   }
 }
-.project-details-area .career-details-list li span svg, .project-details-area .career-details-list li span i {
+.project-details-area .career-details-list li span svg,
+.project-details-area .career-details-list li span i {
   top: 8px;
 }
 .project-details-area .career-details-list li p {
@@ -6646,7 +7154,11 @@ input[type=color] {
   line-height: 1.5;
   margin-bottom: 0;
 }
-@media only screen and (min-width: 1400px) and (max-width: 1599px), only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 1400px) and (max-width: 1599px),
+  only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .project-details-area .career-details-list li p {
     font-size: 15px;
   }
@@ -6656,12 +7168,14 @@ input[type=color] {
   font-size: 20px;
   margin-bottom: 0;
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .project-details-area.style-2 .career-details-list li span {
     font-size: 15px;
   }
 }
-.project-details-area.style-2 .career-details-list li span svg, .project-details-area.style-2 .career-details-list li span i {
+.project-details-area.style-2 .career-details-list li span svg,
+.project-details-area.style-2 .career-details-list li span i {
   top: 0;
 }
 .project-details-area.style-2 .sd-funfact-card {
@@ -6671,7 +7185,9 @@ input[type=color] {
   align-items: start;
   justify-content: space-between;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .project-details-area.style-2 .sd-funfact-card.card-1 {
     min-height: 200px;
   }
@@ -6702,7 +7218,10 @@ input[type=color] {
   font-size: 30px;
   color: var(--oit-clr-black);
 }
-@media only screen and (min-width: 1400px) and (max-width: 1599px), only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 1400px) and (max-width: 1599px),
+  only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px) {
   .project-details-author-list ul li span {
     font-size: 20px;
   }
@@ -6716,7 +7235,10 @@ input[type=color] {
 .project-slide-active {
   margin: 0 -480px;
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .project-slide-active {
     margin: 0;
   }
@@ -6725,17 +7247,20 @@ input[type=color] {
   font-weight: 600;
   font-size: 30px;
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .project-slide-style .oit-project-title {
     font-size: 20px;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .project-slide-style .oit-project-category span {
     font-size: 14px;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .project-slide-style .oit-project-category span:first-child::after {
     top: 7px;
     height: 5px;
@@ -6749,7 +7274,8 @@ input[type=color] {
   background-color: var(--oit-clr-white);
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .oit-project-area.p-relative.mt-50.pt-150.pb-150 {
     padding: 70px 0 !important;
   }
@@ -6794,7 +7320,8 @@ input[type=color] {
     font-size: 80px;
   }
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px) {
   .contact-details-big-title {
     font-size: 60px;
   }
@@ -6817,7 +7344,8 @@ input[type=color] {
     margin-bottom: 60px !important;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .contact-details-thumb {
     padding-bottom: 60px !important;
   }
@@ -6829,7 +7357,8 @@ input[type=color] {
   display: block;
   margin-bottom: 30px;
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .contact-details-time span svg {
     height: 50px;
     width: 50px;
@@ -6841,7 +7370,8 @@ input[type=color] {
   color: var(--oit-clr-black);
   font-family: var(--oit-ff-heading);
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .contact-details-time strong {
     font-size: 18px;
   }
@@ -6849,9 +7379,10 @@ input[type=color] {
 .contact-details-info-wrap {
   padding-top: 60px;
   padding-bottom: 60px;
-  border-top: 1px solid #D9D9D9;
+  border-top: 1px solid #d9d9d9;
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .contact-details-info-wrap {
     fpb: 30px;
   }
@@ -6877,7 +7408,8 @@ input[type=color] {
   margin-bottom: 20px;
   color: var(--oit-clr-black);
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .contact-details-info-top span {
     font-size: 18px;
   }
@@ -6888,7 +7420,8 @@ input[type=color] {
   line-height: 1.5;
   display: block;
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .contact-details-info-top a {
     font-size: 15px;
   }
@@ -6896,9 +7429,10 @@ input[type=color] {
 .contact-details-info-top-box {
   padding-bottom: 35px;
   margin-bottom: 30px;
-  border-bottom: 1px solid #D9D9D9;
+  border-bottom: 1px solid #d9d9d9;
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .contact-details-info-top-box {
     flex-wrap: wrap;
   }
@@ -6918,7 +7452,8 @@ input[type=color] {
   letter-spacing: -0.01em;
   color: var(--oit-clr-black);
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .contact-details-info-bottom a {
     font-size: 18px;
     margin-bottom: 15px;
@@ -6962,7 +7497,8 @@ input[type=color] {
   display: block;
   color: var(--oit-clr-white);
 }
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .contact-style .dg-contact-info a {
     font-size: 18px;
   }
@@ -6983,7 +7519,8 @@ input[type=color] {
     height: 400px;
   }
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px) {
   .map-area iframe {
     height: 350px;
   }
@@ -6997,7 +7534,8 @@ input[type=color] {
 /*----------------------------------------*/
 /* brand details css
 /*----------------------------------------*/
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .brand-area {
     padding-bottom: 0;
   }
@@ -7017,7 +7555,10 @@ input[type=color] {
   align-items: center;
   background-color: var(--oit-grey-1);
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .brand-item {
     height: 90px;
     padding: 10px 15px;
@@ -7026,7 +7567,10 @@ input[type=color] {
 .brand-item img {
   height: 40px;
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .brand-item img {
     width: 120px;
     height: 30px;
@@ -7047,7 +7591,9 @@ input[type=color] {
   margin-right: 35px;
   height: 100%;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .profile-thumb {
     margin-right: 0;
   }
@@ -7060,7 +7606,9 @@ input[type=color] {
 .profile-content {
   padding: 30px 70px 30px 0;
 }
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .profile-content {
     padding: 30px;
   }
@@ -7097,7 +7645,7 @@ input[type=color] {
   padding-left: 40px;
   padding-bottom: 15px;
   margin-bottom: 55px;
-  border-bottom: 1px solid #D9D9D9;
+  border-bottom: 1px solid #d9d9d9;
 }
 .profile-content .contact-info > a {
   font-weight: 600;
@@ -7117,7 +7665,7 @@ input[type=color] {
 .profile-content .contact-social {
   padding-bottom: 32px;
   margin-bottom: 55px;
-  border-bottom: 1px solid #D9D9D9;
+  border-bottom: 1px solid #d9d9d9;
 }
 .profile-content .contact-social a {
   height: 40px;
@@ -7146,12 +7694,15 @@ input[type=color] {
   transition: 0.3s;
 }
 .dg-testimonial-area.service-style .dg-testimonial-item:hover {
-  background-color: #EEEEEE;
+  background-color: #eeeeee;
 }
 .dg-testimonial-area.service-style .text-large {
   margin-top: 110px;
 }
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+@media only screen and (min-width: 1200px) and (max-width: 1399px),
+  only screen and (min-width: 992px) and (max-width: 1199px),
+  only screen and (min-width: 768px) and (max-width: 991px),
+  (max-width: 767px) {
   .dg-testimonial-area.service-style .text-large {
     margin-top: 20px;
   }
@@ -7208,14 +7759,19 @@ input[type=color] {
 .reak-dark .oit-funfact-item span {
   color: #999999;
 }
-.reak-dark .oit-funfact-area .row > [class^=col]:not(:last-child) .oit-funfact-item {
+.reak-dark
+  .oit-funfact-area
+  .row
+  > [class^="col"]:not(:last-child)
+  .oit-funfact-item {
   border-inline-end: 1px solid #303030;
 }
 .reak-dark .oit-funfact-bdr {
   border-top: 1px solid #303030;
   border-bottom: 1px solid #303030;
 }
-.reak-dark .oit-award-content p, .reak-dark .oit-award-content span {
+.reak-dark .oit-award-content p,
+.reak-dark .oit-award-content span {
   color: var(--oit-clr-white);
 }
 .reak-dark .oit-award-icon img {
@@ -7306,7 +7862,7 @@ input[type=color] {
   color: var(--oit-clr-white);
 }
 .reak-dark .oit-footer-widget {
-  background-color: #0D0D0D;
+  background-color: #0d0d0d;
 }
 .reak-dark .sd-about-mission-wrap {
   background: #101216;
@@ -7321,7 +7877,7 @@ input[type=color] {
   color: rgba(255, 255, 255, 0.5);
 }
 .reak-dark .st-service-style .oit-service-item {
-  background-color: #0D0D0D;
+  background-color: #0d0d0d;
 }
 .reak-dark .st-service-style .oit-service-title {
   color: var(--oit-clr-white);
@@ -7336,7 +7892,7 @@ input[type=color] {
   border: 1px solid rgba(255, 255, 255, 0.3);
 }
 .reak-dark .dg-team-social a {
-  background-color: #0D0D0D;
+  background-color: #0d0d0d;
   color: var(--oit-clr-white);
 }
 .reak-dark .dg-team-social a:hover {
@@ -7353,7 +7909,7 @@ input[type=color] {
   color: var(--oit-clr-white);
 }
 .reak-dark .dg-contact-form-box {
-  background: #0D0D0D;
+  background: #0d0d0d;
 }
 .reak-dark .st-price-value {
   color: var(--oit-clr-white);
@@ -7362,7 +7918,7 @@ input[type=color] {
   color: var(--oit-clr-white);
 }
 .reak-dark .st-price-item {
-  background-color: #0D0D0D;
+  background-color: #0d0d0d;
 }
 .reak-dark .st-price-btn .oit-btn-border {
   color: var(--oit-clr-white);
@@ -7404,7 +7960,7 @@ input[type=color] {
   color: var(--oit-clr-white);
 }
 .reak-dark .sd-choose-card {
-  background-color: #0D0D0D;
+  background-color: #0d0d0d;
 }
 .reak-dark .sd-choose-card-inner {
   border: 1px solid rgba(255, 255, 255, 0.2);
@@ -7428,11 +7984,15 @@ input[type=color] {
   color: var(--oit-clr-black);
   background-color: var(--oit-clr-white);
 }
-.reak-dark .sd-team-row-item .row [class*=col]:not(:last-child) .sd-team-item {
-  border-right: 1px solid #D9D9D9;
+.reak-dark
+  .sd-team-row-item
+  .row
+  [class*="col"]:not(:last-child)
+  .sd-team-item {
+  border-right: 1px solid #d9d9d9;
 }
 .reak-dark .sd-team-row-item {
-  border-bottom: 1px solid #D9D9D9;
+  border-bottom: 1px solid #d9d9d9;
 }
 .reak-dark .oit-bin-to-card-item.grey-bg.card-1 {
   background-color: #101216 !important;
@@ -7503,7 +8063,11 @@ input[type=color] {
   background-color: transparent;
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
-.reak-dark .dg-contact-area.faq-style .dg-contact-select .nice-select span.current {
+.reak-dark
+  .dg-contact-area.faq-style
+  .dg-contact-select
+  .nice-select
+  span.current {
   color: rgba(255, 255, 255, 0.8);
 }
 .reak-dark .blog-details-breadcrumb-big-title {
@@ -7544,7 +8108,7 @@ input[type=color] {
 }
 .reak-dark .sidebar-search-box input {
   color: var(--oit-clr-white);
-  background: #0D0D0D;
+  background: #0d0d0d;
 }
 .reak-dark .sidebar-search-button button {
   color: var(--oit-clr-black);
@@ -7635,7 +8199,11 @@ input[type=color] {
   color: var(--oit-clr-white);
 }
 .reak-dark .postbox-comment ul li {
-  background: linear-gradient(209deg, oklab(18.184% -0.00087 -0.00879/0.9) 0%, rgba(16, 18, 22, 0.9) 100%);
+  background: linear-gradient(
+    209deg,
+    oklab(18.184% -0.00087 -0.00879/0.9) 0%,
+    rgba(16, 18, 22, 0.9) 100%
+  );
 }
 .reak-dark .postbox-content .postbox-form-input-box input {
   background-color: #101216;
@@ -7649,7 +8217,10 @@ input[type=color] {
 .reak-dark .postbox-form-textarea-box textarea:focus {
   border: 1px solid rgba(255, 255, 255, 0.7);
 }
-.reak-dark .postbox-area.blog-standard-style .blog-details-breadcrumb-badges .badge {
+.reak-dark
+  .postbox-area.blog-standard-style
+  .blog-details-breadcrumb-badges
+  .badge {
   background-color: #434343;
   color: #999999;
 }
@@ -7679,7 +8250,8 @@ input[type=color] {
   line-height: 1.5;
   color: var(--oit-clr-white);
 }
-.reak-dark .career-details-list li span svg, .reak-dark .career-details-list li span i {
+.reak-dark .career-details-list li span svg,
+.reak-dark .career-details-list li span i {
   color: var(--oit-clr-white);
 }
 .reak-dark .career-details-deadline strong {
@@ -7757,7 +8329,7 @@ input[type=color] {
 }
 .reak-dark .profile-content .contact-social a {
   color: #999999;
-  background: #0D0D0D;
+  background: #0d0d0d;
 }
 .reak-dark .profile-content .contact-social a:hover {
   color: var(--oit-clr-white);
@@ -7788,7 +8360,7 @@ input[type=color] {
   background-color: #434343;
 }
 .reak-dark .dg-testimonial-area.service-style .dg-testimonial-item:hover {
-  background-color: #0D0D0D;
+  background-color: #0d0d0d;
 }
 .reak-dark .oitoffcanvas__logo img {
   filter: invert(1);
@@ -7796,10 +8368,12 @@ input[type=color] {
 .reak-dark .oitoffcanvas__text p {
   color: rgba(153, 153, 153, 0.6);
 }
-.reak-dark .oit-menu-mobile ul li:not(:last-child) > a, .reak-dark .oit-category-mobile-menu ul li:not(:last-child) > a {
+.reak-dark .oit-menu-mobile ul li:not(:last-child) > a,
+.reak-dark .oit-category-mobile-menu ul li:not(:last-child) > a {
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
-.reak-dark .oit-menu-mobile ul li > a, .reak-dark .oit-category-mobile-menu ul li > a {
+.reak-dark .oit-menu-mobile ul li > a,
+.reak-dark .oit-category-mobile-menu ul li > a {
   color: var(--oit-clr-white);
 }
 .reak-dark .oitoffcanvas__info .offcanva-title {
@@ -7828,10 +8402,17 @@ input[type=color] {
 .reak-dark .oit-menu-mobile ul li.has-dropdown > a .dropdown-toggle-btn:hover {
   background-color: var(--oit-clr-white);
 }
-.reak-dark .oit-menu-mobile ul li.has-dropdown > a .dropdown-toggle-btn:hover i {
+.reak-dark
+  .oit-menu-mobile
+  ul
+  li.has-dropdown
+  > a
+  .dropdown-toggle-btn:hover
+  i {
   color: var(--oit-clr-black);
 }
-.reak-dark .oit-menu-mobile ul li:hover > a .dropdown-toggle-btn i, .reak-dark .oit-category-mobile-menu ul li:hover > a .dropdown-toggle-btn i {
+.reak-dark .oit-menu-mobile ul li:hover > a .dropdown-toggle-btn i,
+.reak-dark .oit-category-mobile-menu ul li:hover > a .dropdown-toggle-btn i {
   color: var(--oit-clr-white);
 }
 .reak-dark .oitoffcanvas__close-btn button {
